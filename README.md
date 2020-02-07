@@ -1,2 +1,0 @@
-# AppNavigation
-Lesson 3
