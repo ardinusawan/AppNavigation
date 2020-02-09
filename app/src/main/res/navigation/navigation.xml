@@ -22,7 +22,8 @@
         <action
             android:id="@+id/action_gameFragment_to_gameOverFragment"
             app:destination="@id/gameOverFragment"
-            app:popUpTo="@+id/gameFragment" />
+            app:popUpTo="@+id/gameFragment"
+            app:popUpToInclusive="true" />
         <action
             android:id="@+id/action_gameFragment_to_gameWonFragment"
             app:destination="@id/gameWonFragment"
@@ -38,7 +39,7 @@
             android:id="@+id/action_gameOverFragment_to_gameFragment"
             app:destination="@id/gameFragment"
             app:popUpTo="@+id/titleFragment"
-            app:popUpToInclusive="true" />
+            app:popUpToInclusive="false" />
     </fragment>
     <fragment
         android:id="@+id/gameWonFragment"
@@ -49,6 +50,6 @@
             android:id="@+id/action_gameWonFragment_to_gameFragment"
             app:destination="@id/gameFragment"
             app:popUpTo="@+id/titleFragment"
-            app:popUpToInclusive="true" />
+            app:popUpToInclusive="false" />
     </fragment>
 </navigation>
